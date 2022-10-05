@@ -1,15 +1,13 @@
-import Title from '../src/components/title'
-// eslint-disable-next-line no-unused-vars
+import Title from '../src/components/title/title'
 import Button from '../src/components/button/button'
-// eslint-disable-next-line no-unused-vars
 import Input from '../src/components/input/input'
 
 export default function HomePage() {
   return (
     <>
       <Title> Conteúdo </Title>
-      <input type="text" placeholder="Digite sua opinião" />
-      <button onClick={onClick}/>
+      <Input type="text" placeholder="Digite sua opinião" />
+      <Button onClick />
     </>
   )
 }
