@@ -17,9 +17,9 @@ export default function Credits() {
 
   return (
     <div>
-        {userList.map((user, key) => {
-            <div key={(`user-${key}`)}>(user.name</div>
-        })}    
+      {userList.map((user, key) => {
+        ;<div key={`user-${key}`}>(user.name</div>
+      })}
     </div>
   )
 }
