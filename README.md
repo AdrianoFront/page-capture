@@ -1,4 +1,4 @@
-# page-capture
+# Page capture
 
 - Página de apresentação de uma empresa que irá oferecer serviços de tecnologia, com produtos para atender demandas B2B e B2C.
 
