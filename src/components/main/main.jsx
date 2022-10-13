@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components'
 
 const MainDiv = styled.h1`
@@ -12,6 +13,8 @@ export default function Main() {
       <MainDiv>
         <h1>Adriano Solutions</h1>
         <h2>Conheça nosso trabalho através de produtos tecnológicos</h2>
+        <p>Nós da Empresa vamos entregar soluções que vão aproximar pessoas, 
+          facilitar a cooperação com tecnologia.</p>
       </MainDiv>
     </>
   )
