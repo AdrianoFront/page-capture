@@ -1,25 +1,15 @@
-import { useEffect, useState } from 'react'
+import styled from 'styled-components'
+
+const Credits = styled.div`
+  padding: 10px;
+`
 
 export default function Credits() {
-  const [userList, setUserList] = useState([])
-  useEffect(() => {
-    console.log('inicializado')
-  }, [])
-
-  useEffect(() => {
-    async function fetchData() {
-      const request = await fetch('https://jsonplaceholder.typicode.com/users')
-      const data = await request.json()
-      setUserList(data)
-    }
-    fetchData()
-  }, [])
-
   return (
     <div>
-      {userList.map((user, key) => {
-        ;<div key={`user-${key}`}>(user.name</div>
-      })}
+      <p>Desenvolvido por Adriano</p>
+      <a href="#">Github</a>
+      <a href="#">LinkedIn</a>
     </div>
   )
 }
