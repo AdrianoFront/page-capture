@@ -4,9 +4,14 @@ const GlobalStyle = createGlobalStyle`
     *{
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
+        outline: none;
     }
     body {
         font-family: 'Roboto', sans-serif;
+    }
+    a{
+    text-decoration: none;
     }
 `
 
