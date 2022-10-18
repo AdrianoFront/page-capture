@@ -4,6 +4,6 @@ const StyledInput = styled.input`
   padding: 10px 20px;
 `
 
-export default function (props) {
-  return <StyledInput {...props} />
+export default function () {
+  return <StyledInput />
 }
