@@ -15,7 +15,7 @@ export default function HomePage() {
       <Main />
       <Purpose />
       <Input type="text" placeholder="Digite sua opinião" />
-      <Button onClick />
+      <Button/>
       <Credits />
     </>
   )

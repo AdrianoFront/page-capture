@@ -19,12 +19,12 @@ const ButtonContainer = styled.div`
   }
 `
 
-export default function Button(props) {
+export default function Button() {
   return (
     // eslint-disable-next-line react/jsx-no-undef
     <ButtonContainer>
       <label>Clique abaixo:</label>
-      <button {...props}>Breve</button>
+      <button>Breve</button>
     </ButtonContainer>
   )
 }
