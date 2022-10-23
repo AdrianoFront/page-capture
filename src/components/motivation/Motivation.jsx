@@ -10,6 +10,10 @@ export default function Motivation() {
   return (
     <Container>
       <h2>Nossos ideiais são:</h2>
+      <p>Criar</p>
+      <p>Colaborar</p>
+      <p>Confiar</p>
+      <p>Construir</p>
     </Container>
   )
 }
