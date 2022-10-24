@@ -7,8 +7,13 @@ const StyledMotivation = styled.div`
 `
 
 const StyledMission = styled.div`
-  background-color: #00FF00;
-  margin: 10px 20px;
+  background-color: #ae00ff;
+  height: 140px;
+  width: 140px;
+  background-position: center;
+  border: none;
+  border-radius: 40px;
+  margin: 30px 20px;
 `
 
 export default function Motivation() {
