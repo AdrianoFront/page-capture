@@ -8,12 +8,12 @@ const StyledMotivation = styled.div`
 
 const StyledMission = styled.div`
   background-color: #ae00ff;
-  height: 140px;
-  width: 140px;
-  background-position: center;
-  border: none;
-  border-radius: 40px;
-  margin: 30px 20px;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 3px solid;
+  border-radius: 15px;
+  font-size: 2em;
 `
 
 export default function Motivation() {
