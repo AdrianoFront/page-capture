@@ -23,9 +23,6 @@ export default function Motivation() {
       <StyledMission>
         <p>Criar</p>
       </StyledMission>
-      <p>Colaborar</p>
-      <p>Confiar</p>
-      <p>Construir</p>
     </StyledMotivation>
   )
 }

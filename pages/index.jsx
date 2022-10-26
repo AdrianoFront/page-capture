@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Title from '../src/components/title/title'
 import Button from '../src/components/button/button'
 import Motivation from '../src/components/motivation/Motivation'
-import Input from '../src/components/input/input'
 import Main from '../src/components/main/main'
 import Purpose from '../src/components/purpose/Purpose'
 import Credits from '../src/components/credits/Credits'
@@ -16,7 +15,6 @@ export default function HomePage() {
       <Main />
       <Motivation />
       <Purpose />
-      <Input type="text" placeholder="Digite sua opinião" />
       <Button />
       <Credits />
     </>
