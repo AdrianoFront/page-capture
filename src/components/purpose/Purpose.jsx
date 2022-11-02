@@ -8,11 +8,13 @@ export default function Purpose() {
   return (
     // eslint-disable-next-line react/jsx-no-undef
     <Container>
-      <h2>Nossos ideiais são:</h2>
-      <p>Criar vínculos</p>
-      <p>Melhorar a vida das pessoas</p>
-      <p>Simplificar processos</p>
-      <p>Aliar tecnologia e gente</p>
+      <div>
+        <h2>Nossos ideiais são:</h2>
+        <p>Criar vínculos</p>
+        <p>Melhorar a vida das pessoas</p>
+        <p>Simplificar processos</p>
+        <p>Aliar tecnologia e gente</p>
+      </div>
     </Container>
   )
 }
