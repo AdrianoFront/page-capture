@@ -11,6 +11,7 @@ class NewDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
           />
+          <title>Página de captura</title>
         </Head>
         <body>
           <Main />
