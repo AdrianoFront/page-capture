@@ -5,7 +5,7 @@ import Styled from 'styled-components'
 
 // eslint-disable-next-line no-unused-vars, no-undef
 const Container = styled.div`
- background
+ background-color: #FFBBFF;
 `
 
 function App() {
