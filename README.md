@@ -5,3 +5,5 @@
 O projeto está em andamento. 
 
 As tecnologias utilizadas são: Javascript, React, NextJS, Styled-Components.
+
+Em andamento...
